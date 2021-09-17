@@ -1,0 +1,36 @@
+.weather-page{
+    overflow-y: hidden;
+}
+
+.background-image{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+}
+
+.temprature{
+    font-size: 8vh;
+    color: white;
+    display: flex;
+    margin-bottom: 0em;
+}
+
+.weather-content{
+    position: relative;
+    z-index: 1;
+    background-color: #b3b3b344;
+    border-radius: 2em;
+    padding: 2em 1em 1em 2em;
+    backdrop-filter: blur(1.75em);
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 10em;
+    color: #FFFFFF;
+    box-shadow: 0em 0em 0.5em 0em #57575788;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.1ch;
+}

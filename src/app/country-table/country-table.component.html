@@ -1,0 +1,9 @@
+<div class="countries-page">
+    <img class="background-image" src="https://source.unsplash.com/1600x900/?weather,sky,clouds"/>
+    <div class="heading"><h1><ion-icon name="thunderstorm" style="transform: translateY(0.25em); margin-right: 0.25em;"></ion-icon> Weather App</h1></div>
+    <div class="table">
+        <div class="table-elements" *ngFor="let country of data">
+            <p routerLink="../{{country.capital}},{{country.alpha2Code}}" routerLinkActive="active"> {{country.name}}</p>
+        </div>
+    </div>
+</div>

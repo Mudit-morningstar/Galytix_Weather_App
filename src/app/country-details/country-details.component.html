@@ -1,0 +1,10 @@
+<div class="weather-page">
+    <img class="background-image" src="https://source.unsplash.com/1600x900/?{{data.weather[0].description}}"/>
+    <div class="weather-content">
+        <p style="margin-top: -0.75em;"><ion-icon name="location" style="font-size: x-large; transform: translateY(0.25em); margin-right: 0.25em;"></ion-icon><b>{{data.name}}</b></p>
+        <span class="temprature"><h1 style="margin-right: 0.25ch; font-size: 8vw; font-weight: bold;">{{temprature}}</h1><p style="font-size: 32px; font-weight: bold; transform: translateY(1em);">°c</p></span>
+        <p style="text-transform: capitalize; font-weight: bold;">{{data.weather[0].description}}</p>
+        <p><ion-icon name="water" style="font-size: x-large; transform: translateY(0.25em); margin-right: 0.25em;"></ion-icon>Humidity: {{data.main.humidity}}%</p>
+        <p><ion-icon name="cloud" style="font-size: x-large; transform: translateY(0.25em); margin-right: 0.25em;"></ion-icon>Wind: {{data.wind.speed}} Km/h, {{data.wind.deg}}°</p>
+    </div>
+</div>
